@@ -7,6 +7,8 @@ for (let i = 0; i < holidays.length; i++) {
 }
 
 // while文の場合
-while (holidays.length > 0) {
-    console.log(holidays.shift());
-}
+let i = 0; 
+while (i < holidays.length) {
+    console.log(holidays[i]);
+    i++;
+}    
